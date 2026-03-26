@@ -1,107 +1,271 @@
-Samuel Cell
-Início Serviços Acessórios Depoimentos Contato
-📱 Fale Conosco 
-Início Serviços Acessórios Depoimentos Contato 📱 Fale Conosco
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samuel Cell - Assistência Técnica e Acessórios</title>
+  <meta name="description" content="Samuel Cell - Assistência técnica especializada em smartphones e tablets. Acessórios originais e compatíveis." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
 
-🛡️ Assistência técnica especializada
-Seu aparelho em boas mãos
-Conserto de celulares e tablets com qualidade e rapidez. Acessórios originais e compatíveis com os melhores preços.
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#inicio" class="logo">Samuel Cell</a>
 
-📱 Ver Serviços Ver Acessórios
-O que fazemos
+      <nav class="nav-desktop" id="navDesktop">
+        <a href="#inicio">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#acessorios">Acessórios</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contato">Contato</a>
+      </nav>
 
-Nossos Serviços
-Soluções completas para seus dispositivos eletrônicos com garantia e qualidade.
+      <a href="https://wa.me/5581995418051?text=Olá,%20vim%20pelo%20site!" target="_blank" rel="noopener noreferrer" class="btn-primary header-cta">
+        📱 Fale Conosco
+      </a>
 
-📱
-Troca de Tela
-Substituição de telas quebradas ou com defeito para todos os modelos de smartphones.
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
 
-🔋
-Troca de Bateria
-Baterias novas e originais para seu celular durar o dia todo novamente.
+    <div class="nav-mobile" id="navMobile">
+      <nav class="container">
+        <a href="#inicio">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#acessorios">Acessórios</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contato">Contato</a>
+        <a href="https://wa.me/5581995418051?text=Olá,%20vim%20pelo%20site!" target="_blank" rel="noopener noreferrer" class="btn-primary mobile-cta">
+          📱 Fale Conosco
+        </a>
+      </nav>
+    </div>
+  </header>
 
-💧
-Reparo por Água
-Recuperação de aparelhos que tiveram contato com líquidos.
+  <main>
 
-🔧
-Reparo de Placa
-Microsoldagem e reparo avançado em placas de circuito.
+    <section id="inicio" class="hero">
+      <div class="hero-bg">
+        <img src="assets/hero-repair.jpg" alt="" />
+        <div class="hero-overlay"></div>
+      </div>
 
-📟
-Tablets
-Assistência completa para iPads e tablets Android.
+      <div class="container hero-content">
+        <div class="hero-badge animate-fade-in-up">
+          🛡️ Assistência técnica especializada
+        </div>
 
-Loja
+        <h1 class="hero-title animate-fade-in-up" style="animation-delay:.1s">
+          Seu aparelho em <span class="text-gradient">boas mãos</span>
+        </h1>
 
-Acessórios Eletrônicos
-Os melhores acessórios com preço justo e qualidade garantida.
+        <p class="hero-desc animate-fade-in-up" style="animation-delay:.2s">
+          Conserto de celulares e tablets com qualidade e rapidez.
+          Acessórios originais e compatíveis com os melhores preços.
+        </p>
 
-🛡️
-Capas e Películas
-Proteção premium para todos os modelos de smartphones.
+        <div class="hero-buttons animate-fade-in-up" style="animation-delay:.3s">
+          <a href="#servicos" class="btn-primary btn-lg">📱 Ver Serviços</a>
+          <a href="#acessorios" class="btn-secondary btn-lg">Ver Acessórios</a>
+        </div>
+      </div>
+    </section>
 
-A partir de R$ 14,90
-🎧
-Fones de Ouvido
-Fones Bluetooth e com fio de alta qualidade.
+    <section id="servicos" class="section bg-secondary-light">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">O que fazemos</p>
+          <h2>Nossos <span class="text-gradient">Serviços</span></h2>
+          <p class="section-sub">Soluções completas para seus dispositivos eletrônicos com garantia e qualidade.</p>
+        </div>
 
-A partir de R$ 39,90
-⚡
-Carregadores
-Carregadores turbo e cabos originais e compatíveis.
+        <div class="grid grid-3">
+          <div class="card service-card">
+            <div class="service-icon">📱</div>
+            <h3>Troca de Tela</h3>
+            <p>Substituição de telas quebradas ou com defeito para todos os modelos de smartphones.</p>
+          </div>
+          <div class="card service-card">
+            <div class="service-icon">🔋</div>
+            <h3>Troca de Bateria</h3>
+            <p>Baterias novas e originais para seu celular durar o dia todo novamente.</p>
+          </div>
+          <div class="card service-card">
+            <div class="service-icon">💧</div>
+            <h3>Reparo por Água</h3>
+            <p>Recuperação de aparelhos que tiveram contato com líquidos.</p>
+          </div>
+          <div class="card service-card">
+            <div class="service-icon">🔧</div>
+            <h3>Reparo de Placa</h3>
+            <p>Microsoldagem e reparo avançado em placas de circuito.</p>
+          </div>
+          <div class="card service-card">
+            <div class="service-icon">📟</div>
+            <h3>Tablets</h3>
+            <p>Assistência completa para iPads e tablets Android.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-A partir de R$ 19,90
-🔌
-Cabos e Adaptadores
-USB-C, Lightning, Micro-USB e mais.
+    <section id="acessorios" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Loja</p>
+          <h2>Acessórios <span class="text-gradient">Eletrônicos</span></h2>
+          <p class="section-sub">Os melhores acessórios com preço justo e qualidade garantida.</p>
+        </div>
 
-A partir de R$ 14,90
-Avaliações
+        <div class="grid grid-4">
+          <div class="card accessory-card">
+            <div class="accessory-icon">🛡️</div>
+            <h3>Capas e Películas</h3>
+            <p>Proteção premium para todos os modelos de smartphones.</p>
+            <span class="price">A partir de R$ 14,90</span>
+          </div>
+          <div class="card accessory-card">
+            <div class="accessory-icon">🎧</div>
+            <h3>Fones de Ouvido</h3>
+            <p>Fones Bluetooth e com fio de alta qualidade.</p>
+            <span class="price">A partir de R$ 39,90</span>
+          </div>
+          <div class="card accessory-card">
+            <div class="accessory-icon">⚡</div>
+            <h3>Carregadores</h3>
+            <p>Carregadores turbo e cabos originais e compatíveis.</p>
+            <span class="price">A partir de R$ 19,90</span>
+          </div>
+          <div class="card accessory-card">
+            <div class="accessory-icon">🔌</div>
+            <h3>Cabos e Adaptadores</h3>
+            <p>USB-C, Lightning, Micro-USB e mais.</p>
+            <span class="price">A partir de R$ 14,90</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-O que nossos clientes dizem
-⭐⭐⭐⭐⭐
-"Troquei a tela do meu iPhone e ficou perfeito! Atendimento rápido e preço justo."
+    <section id="depoimentos" class="section bg-secondary-light">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Avaliações</p>
+          <h2>O que nossos <span class="text-gradient">clientes</span> dizem</h2>
+        </div>
 
-Maria Silva
+        <div class="grid grid-3">
+          <div class="card testimonial-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-text">"Troquei a tela do meu iPhone e ficou perfeito! Atendimento rápido e preço justo."</p>
+            <p class="testimonial-name">Maria Silva</p>
+          </div>
+          <div class="card testimonial-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-text">"Levei meu notebook travando e devolveram funcionando como novo. Recomendo demais!"</p>
+            <p class="testimonial-name">João Oliveira</p>
+          </div>
+          <div class="card testimonial-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-text">"Compro todos meus acessórios aqui. Qualidade excelente e o Samuel é super atencioso."</p>
+            <p class="testimonial-name">Ana Costa</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-⭐⭐⭐⭐⭐
-"Levei meu notebook travando e devolveram funcionando como novo. Recomendo demais!"
+    <section id="contato" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Localização</p>
+          <h2>Entre em <span class="text-gradient">Contato</span></h2>
+        </div>
 
-João Oliveira
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <p class="contact-label">Endereço</p>
+                <p class="contact-value">R. do Jangadeiro, 284B - Candeias, Jaboatão dos Guararapes - PE, 54430-315</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div>
+                <p class="contact-label">Telefone</p>
+                <p class="contact-value">+55 81 9541-8051</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">🕐</div>
+              <div>
+                <p class="contact-label">Horário</p>
+                <p class="contact-value">Seg a Sáb: 8h às 20h<br>Dom: Fechado</p>
+              </div>
+            </div>
 
-⭐⭐⭐⭐⭐
-"Compro todos meus acessórios aqui. Qualidade excelente e o Samuel é super atencioso."
+            <div style="width: 100%; margin: 25px 0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); border: 1px solid #eee;">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.883737385461!2d-34.9318182!3d-8.2144678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1f1e1a5555555%3A0x5555555555555555!2sR.%20do%20Jangadeiro%2C%20284B%20-%20Candeias%2C%20Jaboatão%20dos%20Guararapes%20-%20PE!5e0!3m2!1spt-BR!2sbr!4v1711495000000!5m2!1spt-BR!2sbr" 
+                width="100%" 
+                height="350" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
 
-Ana Costa
+            <div class="contact-buttons">
+              <a href="https://wa.me/5581995418051?text=Olá,%20vim%20pelo%20site!" target="_blank" rel="noopener noreferrer" class="btn-whatsapp">
+                💬 Chamar no WhatsApp
+              </a>
+              <a href="https://www.instagram.com/samuelcell12?igsh=aG55bnV4cGlrN2F0" target="_blank" rel="noopener noreferrer" class="btn-instagram">
+                📷 Seguir no Instagram
+              </a>
+              <a href="http://googleusercontent.com/maps.google.com/7" target="_blank" rel="noopener noreferrer" class="btn-maps">
+                📍 Ver no Google Maps
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-Localização
+    <section id="sobre" class="section bg-secondary-light">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Quem somos</p>
+          <h2>Sobre <span class="text-gradient">Nós</span></h2>
+        </div>
+        <p class="about-text">
+          Bem-vindo à Samuel Cell! Somos especialistas em assistência técnica e acessórios para o seu smartphone.
+          Realizamos consertos de diversas marcas, incluindo troca de tela, bateria, conectores e reparos em geral
+          com rapidez e qualidade. Além da assistência, aqui você encontra uma linha completa de capas, películas,
+          carregadores e cabos para proteger e equipar seu aparelho. Nosso compromisso é oferecer um atendimento
+          de excelência e soluções rápidas para o seu dia a dia. Visite-nos e faça seu orçamento!
+        </p>
+      </div>
+    </section>
 
-Entre em Contato
-📍
-Endereço
+  </main>
 
-R. do Jangadeiro, 284B - Candeias, Jaboatão dos Guararapes - PE, 54430-315
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="logo">Samuel Cell</span>
+      <p class="footer-copy">© 2025 Samuel Cell. Todos os direitos reservados.</p>
+    </div>
+  </footer>
 
-📞
-Telefone
+  <a href="https://wa.me/5581995418051?text=Olá,%20vim%20pelo%20site!" target="_blank" rel="noopener noreferrer" class="fab-whatsapp" aria-label="WhatsApp">
+    💬
+  </a>
 
-+55 81 9541-8051
-
-🕐
-Horário
-
-Seg a Sáb: 8h às 20h
-Dom: Fechado
-
-💬 Chamar no WhatsApp 📷 Seguir no Instagram 📍 Ver no Google Maps
-Quem somos
-
-Sobre Nós
-Bem-vindo à Samuel Cell! Somos especialistas em assistência técnica e acessórios para o seu smartphone. Realizamos consertos de diversas marcas, incluindo troca de tela, bateria, conectores e reparos em geral com rapidez e qualidade. Além da assistência, aqui você encontra uma linha completa de capas, películas, carregadores e cabos para proteger e equipar seu aparelho. Nosso compromisso é oferecer um atendimento de excelência e soluções rápidas para o seu dia a dia. Visite-nos e faça seu orçamento!
-
-Samuel Cell
-© 2025 Samuel Cell. Todos os direitos reservados.
-
-💬
+  <script src="script.js"></script>
+</body>
+</html>
