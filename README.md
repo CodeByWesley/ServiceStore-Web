@@ -1,53 +1,53 @@
 # 📱 ServiceStore-Web
 
-> **Solução estratégica de presença digital e conversão de clientes para assistência técnica e venda de acessórios.**
+> **A strategic digital presence and customer conversion solution for mobile technical assistance and accessory sales.**
 
-Este projeto é uma **Landing Page** desenvolvida para resolver problemas reais de uma loja física. O foco principal é transformar o tráfego online em visitas presenciais e orçamentos rápidos, fortalecendo a autoridade digital e a autoridade local do estabelecimento.
-
----
-
-## ⚙️ Metodologia e Desenvolvimento (XP)
-
-O desenvolvimento deste projeto seguiu princípios da metodologia ágil **XP (Extreme Programming)**, priorizando a comunicação direta e a entrega de valor real:
-
-* **Levantamento de Requisitos in loco:** Realizei visitas presenciais à loja para analisar o fluxo de atendimento e identificar gargalos no processo de venda e recepção de aparelhos.
-* **Comunicação Direta com o Cliente:** Entrevistas diretas para entender as maiores dores do negócio, como a dificuldade de localização e a baixa taxa de avaliações online.
-* **Foco na Simplicidade:** Desenvolvimento focado no que o cliente realmente precisa para converter vendas, evitando funcionalidades desnecessárias que atrasariam o lançamento.
+This project is a **Landing Page** developed to solve real-world problems for a physical store. The primary focus is transforming online traffic into in-person visits and quick quotes, strengthening the establishment's digital and local authority.
 
 ---
 
-## 🎯 Problemas Resolvidos
+## ⚙️ Methodology & Development (XP)
 
-* **Dificuldade de Localização:** Integração com Google Maps para facilitar o trajeto do cliente até a loja física através de um clique.
-* **Baixa Autoridade Digital:** Implementação de um fluxo estratégico de "Avalie-nos" para elevar o ranking da loja no Google Business Profile.
-* **Barreira de Contato:** Botão de orçamento instantâneo via WhatsApp para agilizar a triagem de defeitos e cotação de peças.
-* **Giro de Estoque:** Vitrine digital dedicada à exposição de acessórios eletrônicos (capas, películas, periféricos).
+The development of this project followed **Extreme Programming (XP)** agile principles, prioritizing direct communication and the delivery of real value:
 
----
-
-## 🚀 Funcionalidades Estratégicas
-
-* **[CTA] Botão de Orçamento:** Conecta o cliente diretamente ao técnico.
-* **Geolocalização Ativa:** Atalho "Como Chegar" que abre o GPS no endereço exato da loja.
-* **Fomento à Avaliação:** Estratégia visual para incentivar o cliente a deixar um feedback no Google Maps.
-* **Seção de Vitrine:** Galeria organizada de produtos e eletrônicos disponíveis.
+* **In-loco Requirements Gathering:** I conducted in-person visits to the shop to analyze service flow and identify bottlenecks in the sales and device reception process.
+* **Direct Client Communication:** Direct interviews to understand the business's biggest pain points, such as location difficulty and low online review rates.
+* **Focus on Simplicity:** Development focused strictly on what the client needs to convert sales, avoiding unnecessary features that would delay the launch.
 
 ---
 
-## 📂 Organização do Projeto
+## 🎯 Problems Solved
 
-* `index.html` - Estrutura principal da Landing Page.
-* `/assets` - Imagens de produtos, logos e identidade visual.
-* `/css` - Estilização focada em dispositivos móveis (Mobile First).
-* `/js` - Scripts de interatividade e métricas de conversão.
+* **Location Difficulty:** Google Maps integration to facilitate the customer's journey to the physical store with a single click.
+* **Low Digital Authority:** Implementation of a strategic "Review Us" flow to improve the store's ranking on Google Business Profile.
+* **Contact Barrier:** Instant quote button via WhatsApp to speed up defect screening and parts pricing.
+* **Inventory Turnover:** A digital showcase dedicated to displaying electronic accessories (cases, screen protectors, peripherals).
+
+---
+
+## 🚀 Strategic Features
+
+* **[CTA] Quote Button:** Connects the customer directly to the technician.
+* **Active Geolocation:** "How to get here" shortcut that opens the GPS at the store's exact address.
+* **Review Encouragement:** Visual strategy to incentivize customers to leave feedback on Google Maps.
+* **Showcase Section:** Organized gallery of available products and electronics.
 
 ---
 
-## 📈 Objetivos de Negócio
+## 📂 Project Organization
 
-1.  **Aumentar o volume de orçamentos** semanais via canais digitais.
-2.  **Melhorar o SEO local** através de avaliações orgânicas e verificadas.
-3.  **Reduzir o tempo de atendimento**, antecipando dúvidas comuns através da página.
+* `index.html` – Main structure of the Landing Page.
+* `/assets` – Product images, logos, and visual identity.
+* `/css` – Styling focused on mobile devices (Mobile First).
+* `/js` – Interactivity scripts and conversion metrics.
 
 ---
-*Este projeto integra meu portfólio de Análise e Desenvolvimento de Sistemas (ADS), demonstrando a aplicação de metodologias ágeis em soluções para o mercado real.*
+
+## 📈 Business Objectives
+
+1.  **Increase weekly quote volume** via digital channels.
+2.  **Improve local SEO** through organic and verified reviews.
+3.  **Reduce service time** by anticipating common questions through the page.
+
+---
+*This project is part of my Systems Analysis and Development (ADS) portfolio, demonstrating the application of agile methodologies in real-market solutions.*
