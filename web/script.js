@@ -32,5 +32,32 @@ document.addEventListener('DOMContentLoaded', function () {
       header.style.boxShadow = 'none';
     }
   });
+  carregarPrimeiroServico();
 });
+async function carregarPrimeiroServico() {
+    console.log("Tentando chamar a API..."); 
+    try {
 
+        const resposta = await fetch('http://localhost:5000/servicos'); 
+        
+        if (!resposta.ok) throw new Error("Erro na resposta da rede");
+        
+        const dados = await resposta.json();
+        console.log("Dados recebidos:", dados);
+
+        if (dados.length > 0) {
+            const servico = dados[0];
+            const card = document.querySelector('.service-card');
+            if (card) {
+                card.innerHTML = `
+                    <div class="service-icon">${servico.icone || '⚙️'}</div>
+                    <h3>${servico.nome}</h3>
+                    <p>${servico.descricao}</p>
+                    <span class="price">A partir de R$ ${servico.precoBase}</span>
+                `;
+            }
+        }
+    } catch (erro) {
+        console.error("Erro ao conectar com a API:", erro);
+    }
+}
