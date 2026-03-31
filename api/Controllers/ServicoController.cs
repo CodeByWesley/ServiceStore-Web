@@ -6,10 +6,9 @@ namespace api.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class ServicosController : ControllerBase
+public class ServicosController(ServicoService service) : ControllerBase
 {
-    private readonly ServicoService _service;
-    public ServicosController(ServicoService service) => _service = service;
+    private readonly ServicoService _service = service;
 
     [HttpGet]
     public async Task<ActionResult<List<ServicoDto>>> Get()

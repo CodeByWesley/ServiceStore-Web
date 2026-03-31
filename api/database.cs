@@ -9,8 +9,9 @@ namespace api
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public DbSet<Servico> Servicos { get; set; }
-        
-        
+        public DbSet<Acessorio> Acessorios { get; set; }
+
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Servico>(entity =>
@@ -20,6 +21,11 @@ namespace api
                 
                 // define que a descrição tem tamanho maximo de 255 (ajuda em bancos grandes)
                 entity.Property(e => e.Descricao).HasMaxLength(255);       
+            });
+            modelBuilder.Entity<Acessorio>(entity =>
+            {
+                entity.Property(e => e.PrecoBase).HasColumnType("decimal(18, 2)");
+                entity.Property(e => e.Descricao).HasMaxLength(255);
             });
         }
     

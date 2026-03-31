@@ -9,15 +9,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace api.services
 {  
-    public class ServicoService
+    public class ServicoService(AppDbContext db)
     {
         // Referência privada para o contexto do banco de dados (EF Core)
-        private readonly AppDbContext _db; 
-
-        // Injeção de Dependência: Em vez de criar o banco com 'new AppDbContext()',
-        // é pedido ao sistema que nos entregue uma instância pronta.
-        // Isso torna o código mais fácil de testar e manter
-        public ServicoService(AppDbContext db) => _db = db;
+        private readonly AppDbContext _db = db;
 
         public async Task<List<ServicoDto>> ListarTodos()
         {

@@ -22,6 +22,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite("Data Source=services.db"));
 
 builder.Services.AddScoped<ServicoService>();
+builder.Services.AddScoped<AcessorioService>();
 
 
 
@@ -30,11 +31,6 @@ builder.Services.AddCors(opt =>
 {
     opt.AddPolicy(CorsPolicy, policy =>
         policy
-            .WithOrigins(
-                "http://127.0.0.1:5500/",
-                "http://localhost:5000"
-                // aqui adiciona a url do site
-            )
             .SetIsOriginAllowedToAllowWildcardSubdomains()
             .AllowAnyOrigin()
             .AllowAnyHeader()
