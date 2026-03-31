@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Watch API (Backend)",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "dotnet",
+            "args": ["watch", "run", "--launch-profile", "http"],
+            "cwd": "${workspaceFolder}/api",
+            "stopAtEntry": false,
+            "console": "integratedTerminal",
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "Now listening on:\\\\s+(https?://\\\\S+)",
+                "uriFormat": "%s/scalar/v1"
+            }
+        },
+        {
+            "name": "Abrir Site (Frontend)",
+            "type": "chrome", // ou "msedge"
+            "request": "launch",
+            "url": "http://127.0.0.1:5500/web", // URL do seu Live Server
+            "webRoot": "${workspaceFolder}/web"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Projeto Completo (API + Site)",
+            "configurations": [
+                "Watch API (Backend)",
+                "Abrir Site (Frontend)"
+            ],
+            "stopAll": true
+        }
+    ]
+}
